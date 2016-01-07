@@ -1,3 +1,13 @@
 language: node_js
+node_js:
+  - 5.1
+  cache:
+    directories:
+      - node_modules
 after_script:
   - npm run codecov
+notifications:
+  slack:
+    on_success: change
+    on_failure: change
+  email: false
