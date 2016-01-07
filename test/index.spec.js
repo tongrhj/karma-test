@@ -5,7 +5,7 @@ import { myFunction } from '../src'
 
 // alternative: export default function () | import myFunction from '../src'
 
-describe('karma test with Chai', () => {
+describe('Testing Dev Ops Setup', () => {
   it('should expose the Chai expect method', () => {
     expect(1).to.not.equal(2)
   })
