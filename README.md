@@ -4,7 +4,7 @@
 [![devDependency Status](https://david-dm.org/tongrhj/karma-test/dev-status.svg)](https://david-dm.org/tongrhj/karma-test#info=devDependencies)
 
 # karma-test
-DevOps Playground for karma mocha chai sinon istanbul codecov Saucelabs
+DevOps Playground for karma mocha chai sinon istanbul codecov
 
 ## Usage
 Fork this repo to use it as your project template with a ready-made test runner set up. Then simply run
