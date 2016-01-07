@@ -1,0 +1,33 @@
+{
+  "name": "karma-test",
+  "version": "1.0.0",
+  "description": "Playground for karma mocha chai sinon Saucelabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js",
+    "codecov": "cat ./coverage/*/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tongrhj/karma-test.git"
+  },
+  "author": "Jared Tong <hello@jaredtong.com> http://github.com/tongrhj",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browserify-istanbul": "^0.2.1",
+    "codecov.io": "^0.1.6",
+    "karma": "^0.13.19",
+    "karma-browserify": "^4.4.2",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-coverage": "^0.5.3",
+    "karma-mocha": "^0.2.1",
+    "karma-mocha-reporter": "^1.1.5",
+    "karma-sinon-chai": "^1.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/tongrhj/karma-test/issues"
+  },
+  "homepage": "https://github.com/tongrhj/karma-test#readme"
+}

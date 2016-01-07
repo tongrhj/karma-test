@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - 5
+sudo: false
+script:
+  - npm test
+after_script:
+  - npm run codecov
