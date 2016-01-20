@@ -4,7 +4,8 @@
 [![devDependency Status](https://david-dm.org/tongrhj/karma-test/dev-status.svg)](https://david-dm.org/tongrhj/karma-test#info=devDependencies)
 
 # karma-test
-DevOps Playground for karma mocha chai sinon istanbul codecov
+DevOps Playground with karma + mocha + chai + sinon + istanbul + codecov = <3
+[Setup Tutorial](http://jaredtong.com/2016/01/08/how-to-set-up-mocha-chai-sinon-karma-browserify-istanbul-codecov/)
 
 ## Usage
 Fork this repo to use it as your project template with a ready-made test runner set up. Then simply run
@@ -17,7 +18,7 @@ Run tests:
 npm test
 ```
 
-This project uses:
+## Tools and Frameworks
 * Mocha
 * Chai
 * Sinon
