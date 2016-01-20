@@ -1,7 +1,7 @@
-/* global describe it expect*/
+/* global describe it expect assert*/
 
 // Here, I am importing a named function with object destructuring
-import { alwaysTrue, isEven } from '../src'
+import { alwaysTrue, isEven, countLetters } from '../src'
 
 // alternative: export default function () | import myFunction from '../src'
 
@@ -29,5 +29,31 @@ describe('Testing the isEven function', () => {
   it('checks that a number is odd', () => {
     const oddNumber = Math.round(Math.random()) * 2 + 1
     expect(isEven(oddNumber)).to.be.false
+  })
+
+  it('fails when a string is passed', () => {
+    try {
+      isEven('abc')
+      expect(isEven).to.throw(Error)
+      assert.fail()
+    } catch (error) {
+      expect(error.message === 'Must be a number')
+    }
+  })
+})
+
+describe('Testing the countLetters function', () => {
+  it('returns a number when a string is passed', () => {
+    expect(countLetters('abc')).to.equal(3)
+  })
+
+  it('fails when a non-string is passed', () => {
+    try {
+      countLetters(null)
+      expect(isEven).to.throw(Error)
+      assert.fail()
+    } catch (error) {
+      expect(error.message === 'Must be a string')
+    }
   })
 })

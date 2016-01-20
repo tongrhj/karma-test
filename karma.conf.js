@@ -47,13 +47,6 @@ module.exports = function (config) {
           }
         ]
       ]
-      // configure: function(bundle){
-      //   bundle.on('prebundle', function(){
-      //     bundle
-      //       .transform('babelify')
-      //       .transform(cover(coverOptions))
-      //   })
-      // }
     },
 
     // optionally, configure the reporter
@@ -71,7 +64,7 @@ module.exports = function (config) {
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
     // coverage is from karma-coverage and provides Istanbul code coverage reports
-    reporters: ['progress', 'mocha', 'coverage'],
+    reporters: ['mocha', 'coverage'],
 
     // web server port
     port: 9876,
