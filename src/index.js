@@ -1,12 +1,9 @@
-// Code Coverage Tools: IstanbulJS, BlanketJS
-// http://github.com/eddiemoore/testcoverage
+// Lesson Repo: http://github.com/eddiemoore/testcoverage
 
-export function myFunction () {
-  const myTestVariable = 2
+export function alwaysTrue () {
+  return true
+}
 
-  if (myTestVariable === 2) {
-    return true
-  }
-
-  return false
+export function isEven (n) {
+  return n % 2 === 0
 }

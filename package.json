@@ -1,7 +1,7 @@
 {
   "name": "karma-test",
   "version": "1.0.0",
-  "description": "Playground for karma mocha chai sinon Saucelabs",
+  "description": "Playground for karma mocha chai sinon istanbul codecov",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run --browsers PhantomJS",
