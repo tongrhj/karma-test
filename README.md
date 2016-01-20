@@ -5,6 +5,7 @@
 
 # karma-test
 DevOps Playground with karma + mocha + chai + sinon + istanbul + codecov = <3
+
 [Setup Tutorial](http://jaredtong.com/2016/01/08/how-to-set-up-mocha-chai-sinon-karma-browserify-istanbul-codecov/)
 
 ## Usage
