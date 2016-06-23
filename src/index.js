@@ -1,9 +1,3 @@
-// Lesson Repo: http://github.com/eddiemoore/testcoverage
-
-// require('babel-polyfill')
-// if (Array.from) { console.log(Array.from) }
-// else { console.log('not found') }
-
 export function alwaysTrue () {
   return true
 }

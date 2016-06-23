@@ -28,3 +28,10 @@ npm test
 * Codecov.io
 * Browserify
 * Babelify (write ES6 code for your project and your tests)
+
+## Known Issues
+1. Warning of missing `sinon-timer.js` file: [Github Issue](https://github.com/kmees/karma-sinon-chai/issues/34)
+
+## Contributors :sparkles:
+* [tongrhj](https://github.com/tongrhj)
+* [monte-hayward](https://github.com/monte-hayward)

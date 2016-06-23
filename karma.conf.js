@@ -1,5 +1,4 @@
 // Karma configuration
-// Generated on Thu Jan 07 2016 11:11:51 GMT+0800 (SGT)
 
 module.exports = function (config) {
   config.set({
@@ -18,8 +17,7 @@ module.exports = function (config) {
     ],
 
     // list of files to exclude
-    exclude: [
-    ],
+    exclude: [],
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
@@ -81,7 +79,7 @@ module.exports = function (config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chrome'],
+    browsers: ['Chrome', 'Safari', 'Firefox', 'PhantomJS'],
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
