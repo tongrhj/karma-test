@@ -2,6 +2,7 @@
 [![codecov.io](https://codecov.io/github/tongrhj/karma-test/coverage.svg?branch=master)](https://codecov.io/github/tongrhj/karma-test?branch=master)
 [![Dependency Status](https://david-dm.org/tongrhj/karma-test.svg)](https://david-dm.org/tongrhj/karma-test)
 [![devDependency Status](https://david-dm.org/tongrhj/karma-test/dev-status.svg)](https://david-dm.org/tongrhj/karma-test#info=devDependencies)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 # karma-test
 DevOps Playground with karma + mocha + chai + sinon + istanbul + codecov = <3
@@ -28,9 +29,6 @@ npm test
 * Codecov.io
 * Browserify
 * Babelify (write ES6 code for your project and your tests)
-
-## Known Issues
-1. Warning of missing `sinon-timer.js` file: [Github Issue](https://github.com/kmees/karma-sinon-chai/issues/34)
 
 ## Contributors :sparkles:
 * [tongrhj](https://github.com/tongrhj)
