@@ -1,6 +1,6 @@
 {
   "name": "karma-test",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Playground for karma mocha chai sinon istanbul codecov",
   "main": "index.js",
   "scripts": {
