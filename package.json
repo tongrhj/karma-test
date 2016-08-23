@@ -1,6 +1,6 @@
 {
   "name": "karma-test",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Playground for karma mocha chai sinon istanbul codecov",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "istanbul": "^0.4.4",
     "karma": "^1.1.0",
     "karma-browserify": "^5.0.5",
-    "karma-chrome-launcher": "^1.0.1",
+    "karma-chrome-launcher": "^2.0.0",
     "karma-coverage": "^1.0.0",
     "karma-firefox-launcher": "^1.0.0",
     "karma-mocha": "^1.1.1",
