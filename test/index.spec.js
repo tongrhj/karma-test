@@ -6,18 +6,18 @@ import { alwaysTrue, isEven, countLetters } from '../src'
 // alternative: export default function () | import myFunction from '../src'
 
 describe('Testing Dev Ops Setup', () => {
-  it('should expose the Chai expect method', () => {
+  it('exposes the Chai expect method', () => {
     expect(1).to.not.equal(2)
   })
 
-  it('should work with ES6 import export', () => {
+  it('works with ES6 import export', () => {
     expect(alwaysTrue()).to.be.true
   })
 })
 
 // Sample Test
 describe('Testing the isEven function', () => {
-  it('should Exist', () => {
+  it('exists', () => {
     expect(isEven(0)).to.be.true
   })
 
