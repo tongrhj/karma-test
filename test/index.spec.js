@@ -1,7 +1,15 @@
-/* global describe it expect assert*/
+/* global describe it expect assert */
+import sinon from 'sinon'
+import { describe, it, before, after } from 'mocha'
+import { assert, expect } from 'chai'
 
 // Here, I am importing a named function with object destructuring
-import { alwaysTrue, isEven, countLetters } from '../src'
+import {
+  alwaysTrue,
+  isEven,
+  countLetters,
+  throttle
+} from '../src'
 
 // alternative: export default function () | import myFunction from '../src'
 
@@ -15,7 +23,6 @@ describe('Testing Dev Ops Setup', () => {
   })
 })
 
-// Sample Test
 describe('Testing the isEven function', () => {
   it('exists', () => {
     expect(isEven(0)).to.be.true
@@ -55,5 +62,27 @@ describe('Testing the countLetters function', () => {
     } catch (error) {
       expect(error.message === 'Must be a string')
     }
+  })
+})
+
+// Example from http://sinonjs.org/
+describe('Testing the throttle function', () => {
+  var clock
+
+  before(() => { clock = sinon.useFakeTimers() })
+  after(() => { clock.restore() })
+
+  it('calls callback after 100ms', () => {
+    const callback = sinon.spy()
+
+    throttle(callback)()
+
+    clock.tick(99)
+    expect(callback.notCalled).to.be.true
+
+    clock.tick(1)
+    expect(callback.calledOnce).to.be.true
+
+    expect(new Date().getTime()).to.equal(100)
   })
 })

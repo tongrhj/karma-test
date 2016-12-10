@@ -13,3 +13,14 @@ export function countLetters (word) {
     return Array.prototype.slice.call(word).length
   }
 }
+
+export function throttle (callback) {
+  var timer
+  return function () {
+    clearTimeout(timer)
+    var args = [].slice.call(arguments)
+    timer = setTimeout(function () {
+      callback.apply(this, args)
+    }, 100)
+  }
+}
