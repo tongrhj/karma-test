@@ -12,7 +12,7 @@ DevOps Playground with karma + mocha + chai + sinon + istanbul + codecov = <3
 ## Usage
 Fork this repo to use it as your project template with a ready-made test runner set up. Then simply run
 ```
-npm install
+yarn
 ```
 
 Run tests:
