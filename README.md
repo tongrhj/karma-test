@@ -3,7 +3,7 @@
 [![Dependency Status](https://david-dm.org/tongrhj/karma-test.svg)](https://david-dm.org/tongrhj/karma-test)
 [![devDependency Status](https://david-dm.org/tongrhj/karma-test/dev-status.svg)](https://david-dm.org/tongrhj/karma-test#info=devDependencies)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/tongrhj/karma-test/blob/master/LICENSE.md)
+[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/tongrhj/karma-test/master/LICENSE.md)
 
 # karma-test
 DevOps Playground with karma + mocha + chai + sinon + istanbul + codecov = <3
@@ -34,3 +34,6 @@ npm test
 ## Contributors :sparkles:
 * [tongrhj](https://github.com/tongrhj)
 * [monte-hayward](https://github.com/monte-hayward)
+
+## Feedback?
+Raise an issue or reach out: [![Twitter](https://img.shields.io/twitter/url/https/github.com/tongrhj/karma-test.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
