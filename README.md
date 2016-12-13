@@ -3,6 +3,7 @@
 [![Dependency Status](https://david-dm.org/tongrhj/karma-test.svg)](https://david-dm.org/tongrhj/karma-test)
 [![devDependency Status](https://david-dm.org/tongrhj/karma-test/dev-status.svg)](https://david-dm.org/tongrhj/karma-test#info=devDependencies)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/tongrhj/karma-test/blob/master/LICENSE.md)
 
 # karma-test
 DevOps Playground with karma + mocha + chai + sinon + istanbul + codecov = <3
