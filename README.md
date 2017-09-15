@@ -1,3 +1,5 @@
+**NO LONGER MAINTAINED**
+
 [![Build Status](https://travis-ci.org/tongrhj/karma-test.svg?branch=master)](https://travis-ci.org/tongrhj/karma-test)
 [![codecov.io](https://codecov.io/github/tongrhj/karma-test/coverage.svg?branch=master)](https://codecov.io/github/tongrhj/karma-test?branch=master)
 [![Dependency Status](https://david-dm.org/tongrhj/karma-test.svg)](https://david-dm.org/tongrhj/karma-test)
@@ -5,7 +7,7 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/tongrhj/karma-test/master/LICENSE.md)
 
-** NO LONGER MAINTAINED **
+
 
 # karma-test
 DevOps Playground with karma + mocha + chai + sinon + istanbul + codecov = <3
