@@ -5,6 +5,8 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/tongrhj/karma-test/master/LICENSE.md)
 
+** NO LONGER MAINTAINED **
+
 # karma-test
 DevOps Playground with karma + mocha + chai + sinon + istanbul + codecov = <3
 
