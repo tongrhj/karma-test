@@ -37,7 +37,7 @@
     "mocha": "^5.2.0",
     "phantomjs-prebuilt": "^2.1.7",
     "sinon": "^1.17.4",
-    "sinon-chai": "^2.8.0",
+    "sinon-chai": "^3.2.0",
     "watchify": "^3.7.0"
   },
   "bugs": {
