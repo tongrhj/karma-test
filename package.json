@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/tongrhj/karma-test.git"
   },
-  "author": "Jared Tong <hello@jaredtong.com> https://github.com/tongrhj",
+  "author": "Jared Tong <tongrhj@users.noreply.github.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-polyfill": "^6.9.1",
